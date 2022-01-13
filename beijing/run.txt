@@ -1,0 +1,9 @@
+cd zjx/DL_Traff_Graph_main/airSTTN
+nohup python -u run_stn.py > log_stn.log 2>&1 &
+nohup python -u run_sttn.py > log_sttn.log 2>&1 &
+nohup python -u run_sttn_conv.py > log_sttn_conv.log 2>&1 &
+nohup python -u run_sttn_convtrans.py > log_sttn_convtrans.log 2>&1 &
+nohup python -u run_sttn_orig.py > log_sttn_orig.log 2>&1 &
+nohup python -u run_tstn.py > log_tstn.log 2>&1 &
+nohup python -u run_ttn.py > log_ttn.log 2>&1 &
+nohup python -u run_convtrans.py > log_convtrans.log 2>&1 &
